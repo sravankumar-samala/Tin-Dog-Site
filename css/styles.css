@@ -1,0 +1,217 @@
+:root {
+  --clr-dark-bg: #23424a;
+  --clr-light-bg: #136c72;
+  --clr-lightest: #79c8ce;
+  --clr-bg: #cce0e2;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background-color: var(--clr-bg);
+}
+
+h1,
+h2 {
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat-black", sans-serif;
+}
+
+h1,
+h2,
+h3,
+.btns,
+.nav-link {
+  font-weight: 900;
+}
+
+h1,
+#cta h3,
+.icon {
+  font-size: 4rem;
+}
+
+h1,
+#cta h3 {
+  color: #fff;
+}
+
+.features-divs,
+.pricing-row {
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+/* title section  */
+
+#title {
+  background-color: var(--clr-light-bg);
+}
+
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-link {
+  font-family: "Ubuntu", sans-serif;
+  margin: 20px;
+  font-size: 1.2rem;
+  color: #770012;
+}
+
+.title-div {
+  text-align: left;
+}
+
+.download-buttons {
+  margin: 5% 3% 5% 0;
+}
+
+.mobile-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 27%;
+}
+
+/* features section  */
+
+#features {
+  padding: 7% 15%;
+  /* background-color: #fff; */
+  position: relative;
+}
+
+.features-divs {
+  padding: 5%;
+}
+
+.features-divs h3 {
+  font-size: 1.7rem;
+}
+
+.features-divs p {
+  color: #8f8f8f;
+  margin-top: 10px;
+  line-height: 2;
+}
+
+.icon {
+  margin: 7% auto;
+  color: var(--clr-lightest);
+}
+.icon:hover {
+  color: var(--clr-dark-bg);
+}
+
+/* testimonials section  */
+
+#testimonials {
+  background-color: var(--clr-dark-bg);
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.test-img {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* press section  */
+
+#press {
+  background-color: var(--clr-light-bg);
+  padding: 0 0 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section  */
+
+#pricing {
+  padding: 100px;
+}
+
+.grid-div {
+  padding: 4% 2%;
+}
+
+/* call to action section  */
+
+#cta {
+  background-color: var(--clr-light-bg);
+  padding: 7% 15% 3%;
+}
+
+.cta-buttons {
+  margin: 7% 2%;
+}
+
+/* footer section  */
+
+#footer {
+  background-color: #fff;
+  padding: 3% 15%;
+}
+
+.f-icon {
+  margin: 20px 10px;
+  font-size: 1.3rem;
+}
+
+#footer > p {
+  color: #888888;
+  letter-spacing: 1px;
+}
+
+.btns {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+/* mediaquary starts here  */
+
+@media (max-width: 1030px) {
+  .container-fluid {
+    padding: 3% 15% 5%;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: "Montserrat-black", sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color: #fff;
+  }
+
+  .mobile-img {
+    width: 60%;
+    padding-top: 5%;
+    position: static;
+    transform: rotate(0deg);
+  }
+}
